@@ -1,0 +1,774 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.p1{
+    height: 100vh;
+    width: 100%;
+    padding: 1px;
+}
+
+.nav-bar{
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-bar ul{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+}
+
+.nav-bar ul li{
+    padding-left: 30px;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.nav-bar ul li:hover{cursor: pointer;color: violet;transform: scale(1.4);transition-duration: 2s;}
+
+.p1 h6{
+    margin-top: 5%;
+    margin-left: 3%;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.p1 h1{
+    margin-left: 3%;
+    font-weight: bold;
+    font-size: 3rem;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+.p1 p{
+    margin-left: 3%;
+    margin-top: 3%;
+    font-size: 1.2rem;
+}
+
+.p1 button{
+    margin: 3% 5%;
+    height: 60px;
+    width: 200px;
+    background-color: hsl(199, 100%, 78%);
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    font-weight: 1.2rem;
+    outline: none;
+}
+
+.p1 button:hover{cursor: pointer;background-color: lightblue;color: white;}
+
+#m1{
+    height: 550px;
+    margin-left: 40%;
+    margin-top: -22%;
+    position: absolute;
+}
+
+.p2{
+    height: 80vh;
+    width: 100%;
+    padding: 1px;
+}
+
+.p2 img{
+    margin-top: 5%;
+}
+
+.p2 h6{
+    text-align: center;
+    margin-top: -25%;
+    font-weight: bold;
+    font-size: 1rem;
+    text-transform: capitalize;
+}
+
+.p2 h1{
+    text-align: center;
+    margin-left: 15%;
+    margin-top: 20px;
+}
+
+.p2 p{
+    margin-left: 46%;
+    margin-top: 30px;
+    color: #323232;
+}
+
+.p2 button{
+    margin-left: 46%;
+    margin-top: 2%;
+    height: 60px;
+    width: 200px;
+    background-color: hsl(199, 100%, 78%);
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    font-size: 1rem;
+    outline: none;
+}
+
+.p2 button:hover{cursor: pointer;background-color: lightblue;color: white;}
+
+.p3{
+    height: 170vh;
+    width: 100%;
+    text-align: center;
+    padding: 1px;
+}
+
+.p3 h1{
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.p3 p{
+    margin-top: 20px;
+    font-size: 1.3rem;
+}
+
+.serv1{
+    height: 30%;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.ser{
+    height: 100%;
+    width: 30%;
+}
+
+.ser h2{
+    margin-top: 30%;
+    text-transform: uppercase;
+}
+
+.ser i{
+    font-weight: bold;
+    font-size: 3rem;
+    margin-top: 30px;
+}
+
+.p4{
+    height: 50vh;
+    width: 100%;
+    background-color: cadetblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.box{
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    color: white;
+    border-radius: 100%;
+    background-color: white;
+    color: darkcyan;
+}
+
+.box:hover{box-shadow: -1px 1px 5px 20px white;cursor: progress;background-color: transparent;color: black;}
+
+.box h3{
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.box p{
+    margin-top: 20px;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+}
+
+.p5{
+    height: 170vh;
+    width: 100%;
+    padding: 1px;
+    text-align: center;
+}
+
+.p5 h1{
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+.p5 p{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.project1{
+    height: 360px;
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.pro{
+    height: 360px;
+    width: 30%;
+    background-image: url('./img/p1.jpg');
+    background-size: 100% 80%;
+    background-repeat: no-repeat;
+}
+
+.pro p{
+    margin-top: 73%;
+    font-weight: bold;
+    color: cadetblue;
+    font-size: 1.3rem;
+}
+
+.pro p span{
+    color: #323232;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.pro1{
+    background-image: url('./img/p2.jpg');
+    background-size: 100% 80%;
+    background-repeat: no-repeat;
+}
+
+.pro2{
+    background-image: url('./img/p3.jpg');
+    background-size: 100% 80%;
+    background-repeat: no-repeat;
+}
+
+.pro3{
+    background-image: url('./img/p4.jpg');
+    background-size: 100% 80%;
+    background-repeat: no-repeat;
+}
+
+.pro4{
+    background-image: url('./img/p5.jpg');
+    background-size: 100% 80%;
+    background-repeat: no-repeat;
+}
+
+.pro5{
+    background-image: url('./img/p6.jpg');
+    background-size: 100% 80%;
+    background-repeat: no-repeat;
+}
+
+.p6{
+    height: 130vh;
+    width: 100%;
+    padding: 1px;
+}
+
+.p6 h1{
+    margin-top: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+
+.p6 p{
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.reve{
+    height: 300px;
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.r1{
+    height: 100%;
+    width: 40%;
+}
+
+.r1 img{
+    margin-top: 10%;
+    border-radius: 50%;
+}
+
+.r1 p{
+    text-align: left;
+    font-size: 18px;
+    margin-left: 25%;
+    margin-top: -20%;
+    color: #726666;
+}
+
+.r1 h4{
+    margin-left: 25%;
+    margin-top: 20px;
+    color: #323232;
+}
+
+.r1 h5{
+    margin-left: 25%;
+    margin-top: 20px;
+    color: #726666;
+}
+
+.r2 img{
+    margin-top: 10%;
+    border-radius: 50%;
+    height: 130px;
+}
+
+.r3 img{
+    height: 130px;
+}
+
+.p7{
+    height: 110vh;
+    width: 100%;
+    padding: 1px;
+}
+
+.p7 h1{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.p7 p{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.3rem;
+}
+
+.plan{
+    height: 500px;
+    width: 95%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 2%;
+}
+
+.plan1{
+    height: 100%;
+    width: 25%;
+}
+
+.plan1 h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 3rem;
+    background-color: cadetblue;
+    border-radius: 100%;
+    height: 80px;
+    width: 80px;
+    margin-left: 35%;
+    margin-top: 10%;
+    padding-top: 10px;
+    box-shadow: -1px 1px 0px 20px rgb(191, 228, 230);
+}
+
+.plan1 h2{
+    margin-left: 30%;
+    margin-top: 10%;
+    font-size: 20px;
+}
+
+.plan1 p{
+    margin-top: 20px;
+    color: rgb(127, 178, 182);
+    border-bottom: 1px dotted black;
+    width: 90%;
+    text-align: center;
+    margin-left: -5px;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+}
+
+.plan1 h3{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2rem;
+    margin-left: -10px;
+}
+
+.p8{
+    height: 130vh;
+    width: 100%;
+    padding: 1px;
+}
+
+.p8 h1{
+    text-align: center;
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+
+.p8 p{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+
+.blog{
+    height: 85vh;
+    width: 85%;
+    margin-top: 3%;
+    margin-left: 6%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.b1{
+    height: 100%;
+    width: 30%;
+    background-image: url('./img/b1.jpg');
+    background-size: 100% 55%;
+    background-repeat: no-repeat;
+}
+
+.b1 img{
+    margin-top: 92%;
+    height: 50px;
+}
+
+.b1 p{
+    text-align: left;
+    margin: -10% 17%;
+    font-size: 15px;
+}
+
+.b1 h3{
+    margin-top: 17%;
+    text-transform: uppercase;
+    margin-left: 7px;
+}
+
+.b1 h4{
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.b2{
+    background-image: url('./img/b2.jpg');
+    background-size: 100% 55%;
+    background-repeat: no-repeat;
+}
+
+.b3{
+    background-image: url('./img/b3.jpg');
+    background-size: 100% 55%;
+    background-repeat: no-repeat;
+}
+
+.p9{
+    height: 100vh;
+    width: 100%;
+    padding: 1px;
+}
+
+.cont1{
+    height: 50vh;
+    width: 100%;
+    background-color: rgb(127, 178, 182);   
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; 
+}
+
+.cont1 img{
+    height: 100px;
+}
+
+.cont2{
+    height: 60vh;
+    width: 100%;
+    background-color: rgb(13, 13, 114);
+    padding: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.copy1{
+    height: 50px;
+    width: 30%;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.copy1 h6{
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    text-transform: capitalize;
+}
+
+.copy2{
+    height: 40%;
+    width: 35%;
+}
+
+.copy2 p{
+    margin-top: 5%;
+    color: grey;
+    text-transform: capitalize;
+}
+
+.copy2 input{
+    margin-top: 3%;
+    height: 50px;
+    width: 70%;
+    font-weight: bold;
+    outline: none;
+}
+
+.copy2 i{
+    font-weight: bold;
+    color: white;
+    background-color: rgb(101, 168, 190);
+    padding: 15px;
+    font-size: 1.5rem;
+    position: absolute;
+    margin-top: 14px;
+}
+
+.copy3{
+    height: 20%;
+    width: 20%;
+}
+
+.copy3 i{
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-top: 20px;
+    padding-left: 10px;
+}
+
+@media screen  and (min-width:0) and (max-width:300px)
+{
+    .nav-bar ul li{
+        font-size:10px;
+        padding: 0px 3px;
+    }
+
+    .nav-bar ul{
+        margin-left: -50%;
+    }
+
+    .nav-bar img{
+        margin-top: -60px;
+        height: 30px;
+        width: 100px;
+        margin-left: 20%;
+    }
+
+    .p1 h6{
+        text-align: center;
+    }
+
+    .p1 p{
+        text-align: center;
+    }
+
+    .p1 button{
+        margin-left: 50px;
+    }
+
+    .p1 img{
+        transform: scale(.5);
+        margin-left: -115% !important;
+    }
+
+    .p1 h1{
+        text-align: center;
+    }
+
+    .p2 img{
+        transform: scale(.4);
+        margin-left: -50%;
+        margin-top: 30%;
+        border: 1px solid black;
+    }
+
+    .p2{
+        height: 130vh;
+    }
+
+    .p2 h6{
+        text-align: center;
+        margin-top: -40%;
+    }
+
+    .p2 h1{
+        text-align: center;
+    }
+
+    .p2 p{
+        text-align: center;
+        margin-left: -1%;
+        margin-top: 4%;
+    }
+
+    .p2 button{
+        margin-left: 12%;
+    }
+    
+    .p3{
+        height: 170vh;
+    }
+
+    .serv1{
+        flex-direction: row;
+        margin: 0% 0%;
+    }
+
+    .ser{
+        height: 80%;
+        text-align: left;
+        width: 50%;
+    }
+
+    .ser h2{
+        text-align: center;
+        font-size: 10px;
+    }
+
+    .ser p{
+        text-align: center;
+        transform: scale(.6);
+        font-size: 20px;
+        margin: 0% 0%;
+        margin-top: -16%;
+    }
+    .serv1{
+        transform: scale(.8);
+        height: 20%;
+        width: 150%;
+        margin: 0% 0%;
+        margin-left: -25%;
+    }
+
+    .serv2{
+        margin-top: -15%;
+    }
+
+    .p4{
+        transform: scale(.8);
+        display: flex;
+        flex-wrap: wrap-reverse;    
+        border: 1px solid black;
+        height: 100vh;    
+    }
+
+    .box{
+        transform: scale(.8 );
+    }
+
+    .p5{
+        height: 150vh;
+    }
+
+    .project1{
+        height: 300px;
+    }
+
+    .pro{
+        background-size: 100% 60%;
+        height: 300px;
+    }
+
+    .pro p{
+        margin-top: 220%;
+    }
+
+    .p6{
+        height: 280vh;
+    }
+
+    .reve{
+        height: 600px;
+    }
+
+    .r1{
+        text-align: center;
+    }
+
+    .r1 img{
+        transform: scale(.7);
+        margin: 0% 0%;
+    }
+
+    .r1 p{
+        text-align: center;
+        margin: 0% 0%;
+    }
+
+    .r1 h4{
+        margin: 0% 0%;
+        margin-top: 15px;
+    }
+
+    .r1 h5{
+        margin: 0% 0%;
+        margin-top: 15px;
+    }
+
+    .p7{
+        height: 200vh;
+    }
+
+    .plan{
+        border: 1px solid black;
+        justify-content: center;
+    }
+
+    .plan1{
+        border: 1px solid black;
+        margin: 0% 0%;
+        width: 25%;
+        margin: 0% 0%;
+    }
+
+    .plan1 h1{
+        transform: scale(.5);
+        margin: 0% 0%;
+        
+    }
+
+    .plan1 h2{
+        transform: scale(.5);
+        margin: 0% 0%;
+    }
+
+    .plan1 h3{
+        transform: scale(.5); 
+        margin: 0% 0%;
+        font-size: 20px;
+    }
+
+    .plan1 p{
+        transform: scale(.5);
+        margin: 0% 0%;
+    }
+
+}
