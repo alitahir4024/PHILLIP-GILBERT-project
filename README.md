@@ -1,2 +1,18 @@
 # PHILLIP-GILBERT-project
-PHILLIP GILBERT website template is developed using full css flexbox,margin,padding and positions.In this project I have developed some sections of template using Full flexbox and some are developed using just margin and padding and some are developed using only css positions.
+
+PHILLIP GILBERT website template is developed using full css flexbox,margin,padding and positions.
+
+## Developed with:
+
+* HTML.
+* CSS.
+
+## Silent Features:
+
+* Structured using CSS Flexbox layout,css margin paddings and positions.
+* Contains unique CSS effects.
+* Structured with different CSS properties.
+
+## Project Preview:
+
+(https://ali-tahir4024.github.io/PHILLIP-GILBERT-project/).
