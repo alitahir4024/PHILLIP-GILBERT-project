@@ -15,4 +15,4 @@ PHILLIP GILBERT website template is developed using full css flexbox,margin,padd
 
 ## Project Preview:
 
-(https://ali-tahir4024.github.io/PHILLIP-GILBERT-project/).
+[PHILLIP-GILBERT-project](https://alitahir4024.github.io/PHILLIP-GILBERT-project/)
